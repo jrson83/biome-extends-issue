@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@biome-issue/module-a": ["./packages/module-a/src/index.ts"],
+      "@biome-issue/module-b": ["./packages/module-b/src/index.ts"]
+    }
+  },
+  "exclude": [
+    "**/dist",
+    "**/node_modules",
+    "**/public",
+    "**/__tests__",
+    "**/.*/"
+  ]
+}

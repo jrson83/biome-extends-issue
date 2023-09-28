@@ -1,0 +1,17 @@
+{
+  "name": "biome-issue",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "clean": "pnpm --stream -r clean",
+    "lint": "pnpm --stream -r lint",
+    "format": "pnpm --stream -r format",
+    "build": "pnpm --stream -r build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.2.2",
+    "@types/node": "^20.7.1",
+    "typescript": "^5.2.2"
+  }
+}
